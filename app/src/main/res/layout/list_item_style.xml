@@ -1,0 +1,80 @@
+<LinearLayout
+    android:id="@+id/savedlayout"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Date of Order"
+                android:layout_width="0dp"
+                android:layout_weight="1.8"
+                android:id="@+id/date"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/imageview"
+                android:layout_width="120dp"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_height="120dp"/>
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/orderid"
+                    android:text="Order ID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/orderstatus"
+                    android:text="Order Status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/paidamount"
+                    android:text="Paid Amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/productid"
+                    android:text="Product ID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/ordertitle"
+                    android:text="Order Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/ratting"
+                    android:text="Ratting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
